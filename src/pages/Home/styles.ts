@@ -64,11 +64,10 @@ export const MinuteAmountInput = styled(BaseInput)`
 `
 
 export const CountdownContainer = styled.div`
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-size: 10rem;
   line-height: 8rem;
   color: ${(props) => props.theme['gray-100']};
-
   display: flex;
   gap: 1rem;
 
