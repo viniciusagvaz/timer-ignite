@@ -1,4 +1,6 @@
 import { Play } from 'phosphor-react'
+import { useForm } from 'react-hook-form'
+
 import {
   CountdownContainer,
   FormContainer,
@@ -9,10 +11,15 @@ import {
   TaskInput,
 } from './styles'
 
+// * controlled
+// * uncontrolled
+
 export function Home() {
+  function handleSubmit(event) {}
+
   return (
     <HomeContainer>
-      <form action="">
+      <form onSubmit={handleSubmit} action="">
         <FormContainer>
           <label htmlFor="task">Vou trabalhar em</label>
           <TaskInput
@@ -52,7 +59,7 @@ export function Home() {
           <span>0</span>
         </CountdownContainer>
 
-        <StartCountdowButton type="submit">
+        <StartCountdowButton type="submit" disabled={!task}>
           <Play size={24} />
           Começar
         </StartCountdowButton>
