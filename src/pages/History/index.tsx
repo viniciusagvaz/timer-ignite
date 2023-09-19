@@ -6,6 +6,7 @@ import { CyclesContext } from '../../contexts/CyclesContent'
 
 export function History() {
   const { cycles } = useContext(CyclesContext)
+
   return (
     <HistoryContainer>
       <h1>Meu Histórico</h1>
