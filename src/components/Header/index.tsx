@@ -11,7 +11,7 @@ export function Header() {
         <img src={logoVV} alt="" />
       </span>
       <nav>
-        <NavLink to="/" title="Timer">
+        <NavLink to="/home" title="Timer">
           <Timer size={24} />
         </NavLink>
 
