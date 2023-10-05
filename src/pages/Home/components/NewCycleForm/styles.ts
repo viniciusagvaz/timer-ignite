@@ -13,7 +13,6 @@ export const FormContainer = styled.div`
   font-weight: bold;
 
   @media (max-width: 768px) {
-    margin-top: 1rem;
     flex-direction: column;
     align-items: baseline;
   }
