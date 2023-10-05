@@ -21,4 +21,11 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1rem;
-  }`
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      background: ${(props) => props.theme['gray-800']};
+    }
+  }
+  `
