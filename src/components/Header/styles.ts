@@ -4,6 +4,7 @@ export const HeaderContainter = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   img {
     width: 3rem;
   }
@@ -33,5 +34,9 @@ export const HeaderContainter = styled.header`
     &.active {
       color: ${(props) => props.theme['green-500']};
     }
+  }
+  @media (max-width: 768px) {
+    padding-bottom: 1rem;
+    align-items: center;
   }
 `

@@ -25,12 +25,9 @@ export const GlobalStyle = createGlobalStyle`
   }
   
   @media (max-width: 768px) {
+
     body {
       background: ${(props) => props.theme['gray-800']};
-    }
-
-    div {
-      /* justify-content: flex-end; */
     }
   }
   `

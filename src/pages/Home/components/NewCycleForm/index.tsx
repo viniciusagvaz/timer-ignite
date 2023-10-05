@@ -21,19 +21,23 @@ export function NewCycleForm() {
         <option value="Projeto 4" />
         <option value="Projeto 5" />
       </datalist>
+      <div
+        id="minute
+      s-mobile"
+      >
+        <label htmlFor="minutesAmount">Durante</label>
+        <MinuteAmountInput
+          type="number"
+          id="minutesAmount"
+          placeholder="00"
+          step={5}
+          min={5}
+          max={60}
+          {...register('minutesAmount', { valueAsNumber: true })}
+        />
 
-      <label htmlFor="minutesAmount">Durante</label>
-      <MinuteAmountInput
-        type="number"
-        id="minutesAmount"
-        placeholder="00"
-        step={5}
-        min={5}
-        max={60}
-        {...register('minutesAmount', { valueAsNumber: true })}
-      />
-
-      <span>minutos.</span>
+        <span>minutos.</span>
+      </div>
     </FormContainer>
   )
 }
