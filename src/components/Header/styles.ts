@@ -4,7 +4,6 @@ export const HeaderContainter = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   img {
     width: 3rem;
   }

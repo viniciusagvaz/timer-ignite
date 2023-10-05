@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
+
   :focus {
     outline: none;
     box-shadow: 0 0 0 2px ${(props) => props.theme['green-500']};
@@ -26,6 +27,10 @@ export const GlobalStyle = createGlobalStyle`
   @media (max-width: 768px) {
     body {
       background: ${(props) => props.theme['gray-800']};
+    }
+
+    div {
+      /* justify-content: flex-end; */
     }
   }
   `

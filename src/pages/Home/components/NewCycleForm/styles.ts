@@ -38,7 +38,7 @@ export const BaseInput = styled.input`
   }
 
   @media (max-width: 768px) {
-    width: 41.8%;
+    width: 78%;
   }
 `
 
