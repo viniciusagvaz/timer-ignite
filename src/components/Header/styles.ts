@@ -36,7 +36,6 @@ export const HeaderContainter = styled.header`
     }
   }
   @media (max-width: 768px) {
-    padding-bottom: 1rem;
     align-items: center;
   }
 `

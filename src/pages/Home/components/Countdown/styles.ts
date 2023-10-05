@@ -10,13 +10,14 @@ export const CountdownContainer = styled.div`
 
   span {
     background: ${(props) => props.theme['gray-700']};
+    border: 1px solid ${(props) => props.theme['gray-600']};
     padding: 2rem 1rem;
     border-radius: 8px;
   }
   @media (max-width: 768px) {
     font-size: 5rem;
     line-height: 4rem;
-    gap: 0.3rem;
+    gap: 0.5rem;
   }
 `
 
