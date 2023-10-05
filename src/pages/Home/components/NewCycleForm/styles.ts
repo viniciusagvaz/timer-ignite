@@ -61,5 +61,10 @@ export const MinuteAmountInput = styled(BaseInput)`
 
   @media (max-width: 768px) {
     width: 3rem;
+    -webkit-outer-spin-button,
+    -webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
   }
 `
