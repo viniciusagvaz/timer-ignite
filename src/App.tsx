@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { defaultTheme } from './styles/themes/default'
 import { GlobalStyle } from './styles/global'
 import { CyclesContextProvider } from './contexts/CyclesContent'
+import { Footer } from './components/Footer'
 
 export function App() {
   return (
@@ -14,6 +15,8 @@ export function App() {
           <Router />
         </CyclesContextProvider>
       </BrowserRouter>
+
+      <Footer />
 
       <GlobalStyle />
     </ThemeProvider>
